@@ -1,0 +1,8 @@
+.footer__item{
+  margin-right:18px;
+}
+
+
+.footer__item:nth-last-child(2){
+  margin-right:0;
+}

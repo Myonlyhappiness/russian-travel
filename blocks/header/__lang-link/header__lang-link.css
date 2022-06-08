@@ -1,0 +1,10 @@
+.header__lang-link{
+  text-decoration: none;
+  font-size: 24px;
+  color:white;
+}
+
+.header__lang-link:first-child{
+  text-decoration: underline;
+  padding-right: 18px;
+}
