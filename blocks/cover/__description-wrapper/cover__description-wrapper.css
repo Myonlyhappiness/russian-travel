@@ -1,8 +1,17 @@
-.cover__description-wrapper{
+.cover__description-wrapper {
   position: absolute;
-  top:calc(50% - 125px);
-  left:calc(50% - 280px);
-  right:calc(50% - 280px);
+  top: calc(50% - 125px);
+  left: calc(50% - 280px);
+  right: calc(50% - 280px);
   max-width: 560px;
   z-index: 1;
+}
+
+@media screen and (max-width: 720px) {
+  .cover__description-wrapper {
+    min-width: 288px;
+    top: calc(50% - 73px);
+    left: calc(50% - 144px);
+    right: calc(50% - 144px);
+  }
 }

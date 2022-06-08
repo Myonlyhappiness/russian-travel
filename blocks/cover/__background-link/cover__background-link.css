@@ -1,5 +1,5 @@
-.cover__background-link{
-  position:absolute;
+.cover__background-link {
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -7,7 +7,7 @@
   z-index: 2;
 }
 
-.cover__background-link:hover .cover__background{
+.cover__background-link:hover .cover__background {
   opacity: 0.5;
-  color:white;
+  color: white;
 }

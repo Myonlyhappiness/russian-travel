@@ -1,24 +1,28 @@
-.cover__background-wrapper{
+.cover__background-wrapper {
   position: relative;
-  line-height:0;
+  line-height: 0;
   min-height: 350px;
 }
 
 /* Установлена минимальная высота для того, чтобы в случае недоступности картинки, абсолютные заголовок и подзаголовок не ломали верстку */
 
-
-
-.cover__background-wrapper::after{
- content: "";
- position: absolute;
- top:0;
- bottom: 0;
- left: 0;
- right: 0; 
- background: url(../../../images/cover/cover__overlay.jpg) no-repeat;
- z-index: 0;
+.cover__background-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(../../../images/cover/cover__overlay.jpg) no-repeat;
+  z-index: 0;
 }
 
-.cover__background-wrapper:hover .cover__background{
-  opacity: 0.7
+.cover__background-wrapper:hover .cover__background {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 720px) {
+  .cover__background-wrapper {
+    min-height: 200px;
+  }
 }

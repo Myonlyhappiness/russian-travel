@@ -1,3 +1,9 @@
-.place__description-wrapper{
-align-self: start;
+.place__description-wrapper {
+  align-self: start;
+}
+
+@media screen and (max-width: 720px) {
+  .place__description-wrapper {
+    max-width: 500px;
+  }
 }

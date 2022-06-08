@@ -1,5 +1,17 @@
-.places{
+.places {
   max-width: 984px;
   margin: auto;
   padding: 92px 0;
+}
+
+@media screen and (max-width: 800px) {
+  .places {
+    padding: 88px 24px 90px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .places {
+    padding: 64px 16px 66px;
+  }
 }

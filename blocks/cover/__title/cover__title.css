@@ -5,3 +5,11 @@
   text-align: center;
   margin: 0;
 }
+
+@media screen and (max-width: 720px) {
+  .cover__title {
+    font-size: 32px;
+    max-width: 255px;
+    margin: auto;
+  }
+}
