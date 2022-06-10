@@ -6,6 +6,13 @@
 
 /* Установлена минимальная высота для того, чтобы в случае недоступности картинки, абсолютная картинка пути не залезала на блок снизу */
 
+@media screen and (max-width: 800px) {
+  .lead__image {
+    margin:0 -24px;
+  }
+}
+
+
 @media screen and (max-width: 720px) {
   .lead__image {
     min-height: 200px;

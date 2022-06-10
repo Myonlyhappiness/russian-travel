@@ -4,13 +4,15 @@
   line-height: 1;
 }
 
-.footer__item:nth-last-child(2) {
-  margin-right: 0;
-}
 
 @media screen and (max-width: 720px) {
   .footer__item {
     margin-bottom: 32px;
     font-size: 24px;
   }
+}
+
+
+.footer__item:last-child{
+  margin-right: 0;
 }

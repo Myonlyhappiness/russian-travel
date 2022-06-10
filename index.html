@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,10 +12,10 @@
   <div class="page">
     <header class="header">
       <img src="images/logo/__logo.svg" alt="" class="header__logo">
-      <nav class="header__lang-links">
-        <a href="#" class="header__lang-link header__lang-link_underline">Ru</a>
-        <a href="#" class="header__lang-link">En</a>
-      </nav>
+      <ul class="header__lang-links">
+        <li class="header__lang-link-item"><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
+        <li class="header__lang-link-item"><a href="#" class="header__lang-link">En</a></li>
+      </ul>
     </header>
 <main class="content">
   <section class="lead">
@@ -120,26 +120,22 @@
     </article>
   </section>
   <section class="cover">
-    <div class="cover__background-wrapper">
-    <img class="cover__background" src="images/cover/cover__background.png" alt="Сортировочная железнодорожная станция">
-    <a class="cover__background-link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank"></a>
-  </div>
-    <div class="cover__description-wrapper">
+    <a class="cover__background-link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
       <h2 class="cover__title">До Байкала «на собаках»</h2>
       <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-    </div>
+    </a>
   </section>
 </main>
 <footer class="footer">
-  <nav class="navigation">
+  <nav class="footer__navigation">
     <ul class="footer__links">
       <li class="footer__item"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
       <li class="footer__item"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
       <li class="footer__item"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
       <li class="footer__item"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
       <li class="footer__item"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
-      <li class="footer__copyright">© 2022. Eugene Nikulin</li>
     </ul>
+    <div class="footer__copyright">© 2022. Eugene Nikulin</div>
   </nav>
 </footer>
 </div>

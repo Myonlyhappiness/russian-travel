@@ -1,9 +1,5 @@
-.place__description-wrapper {
-  align-self: start;
-}
-
-@media screen and (max-width: 720px) {
-  .place__description-wrapper {
-    max-width: 500px;
+@media screen and (max-width: 450px) {
+    .place__description-wrapper {
+      padding: 0 16px;
+    }
   }
-}

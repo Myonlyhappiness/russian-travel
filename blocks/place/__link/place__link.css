@@ -3,8 +3,9 @@
   font-size: 18px;
   line-height: 1.2;
   color: #fff;
+  
 }
 
 .place__link:hover {
-  text-decoration: none;
+  opacity:0.8;
 }

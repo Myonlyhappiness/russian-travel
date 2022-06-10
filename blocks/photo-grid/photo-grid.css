@@ -4,7 +4,11 @@
   gap: 16px;
   margin: 0 auto;
   max-width: 1184px;
+  padding: 0 48px;
 }
+
+
+
 
 @media screen and (max-width: 800px) {
   .photo-grid {
@@ -12,8 +16,9 @@
   }
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 450px) {
   .photo-grid {
     padding: 0 16px;
+     gap: 12px;
   }
 }
