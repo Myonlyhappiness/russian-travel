@@ -12,14 +12,18 @@
   padding-bottom: 0;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .place {
     grid-gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .place {
     grid-template-columns: minmax(400px, 440px) 
     minmax(352px, 456px);
   }
 }
-
 
 
 @media screen and (max-width: 850px) {

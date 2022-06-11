@@ -16,25 +16,13 @@
     font-size: 32px;
     max-width: 255px;
     margin: auto;
-    padding-top:calc(60% - 280px);
+    padding-top:12%;
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 320px) {
   .cover__title {
-    padding-top:calc(60% - 230px);
-  }
-}
-
-@media screen and (max-width: 430px) {
-  .cover__title {
-    padding-top:calc(60% - 190px);
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .cover__title {
-    padding-top:calc(60% - 177px);
+    padding-top:11%;
   }
 }
 
