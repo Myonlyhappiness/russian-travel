@@ -3,35 +3,33 @@
   background-position: center;
   background-size: cover;
   display: block;
-  width:100%;
+  width: 100%;
   height: 0px;
-  padding-bottom:62.5%;
+  padding-bottom: 62.5%;
   color: white;
   text-decoration: none;
   position: relative;
   z-index: 2;
 }
 
-
 .cover__background-link::after {
-  content: "";  
-  position:absolute;
+  content: "";
+  position: absolute;
   z-index: 1;
-  top:0;
-  left:0;
-  bottom:0;
-  right:0;
-  background-color: rgba(42,44,47, 0.3);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(42, 44, 47, 0.3);
   transition: background-color linear 0.3s;
 }
 
-
-.cover__background-link:hover:after{
- background-color: rgba(42,44,47, 0.8);
+.cover__background-link:hover:after {
+  background-color: rgba(42, 44, 47, 0.8);
 }
 
-@media scree and (max-width:720px){
+@media scree and (max-width: 720px) {
   .cover__background-link {
-  margin: 0 -96px;
-}
+    margin: 0 -96px;
+  }
 }
